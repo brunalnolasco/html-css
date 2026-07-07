@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px; /*Margins minima e max para responsvidade e adaptar o conteudo*/
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, veniam harum nulla libero voluptatibus illum alias quam ab omnis dolorum quo ipsa cum. Non cum quas eum ducimus expedita suscipit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, veniam harum nulla libero voluptatibus illum alias quam ab omnis dolorum quo ipsa cum. Non cum quas eum ducimus expedita suscipit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, veniam harum nulla libero voluptatibus illum alias quam ab omnis dolorum quo ipsa cum. Non cum quas eum ducimus expedita suscipit.</p>
+        <picture> /*Recurso para responsividade*/
+            <source media="(max-width:600px)" srcset="imagens/irina-blok-pq.jpg"> 
+            <img src="imagens/irina-blok.jpg" alt="Irina Block">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quae eaque excepturi qui suscipit quisquam magnam perferendis libero, exercitationem officia pariatur debitis adipisci. Nam minima at quasi magni harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, veniam harum nulla libero voluptatibus illum alias quam ab omnis dolorum quo ipsa cum. Non cum quas eum ducimus expedita suscipit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, veniam harum nulla libero voluptatibus illum alias quam ab omnis dolorum quo ipsa cum. Non cum quas eum ducimus expedita suscipit.</p>
+    </main>
+</body>
+</html>

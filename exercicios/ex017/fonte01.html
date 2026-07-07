@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+         /*Se nao achar Arial, vai tentar a proxima, se  nao achar a segunda mais pra proxima.OR vc pode colocar so serif/san serif ai ele vai pegar uma fonte que ele escolher aleatoria da categoria escolhida*/
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas absolutas: cm, mm, in, px, pt,pc
+               Medidas re;ativas: em(relativo ao tamanho M de uma fonte), ex(relativo ao tamanho X de uma fonte, rem, vw, vh, %), 
+               RECOMENDADO USAR PX AND EM 
+               geralmente 16px = 1em*/
+
+            font-size: 16px;/*a fonte padrao do navegador é 16px.*/
+            font-weight: normal;
+            /*font-style: italic ;*/
+            /* Weights: lighter, normal, bold, bolder
+                ou em numero que vai do 100 ao 900*/
+            /*text-decoration: underline;
+            */
+        }
+
+        h1{
+            /*Proriedade shorthand font
+            - fonte-style -> font-weight -> font-size -> font-family ->
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            text-decoration: underline;
+            */
+            font: italic bolder 3em 'arial', sans-serif;
+        }
+
+        h2{
+            font: bold 2m 'helvetica' sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat et quidem tenetur omnis vel saepe pariatur quam eos, harum accusantium aspernatur iusto laboriosam. Libero quo consequuntur possimus ducimus aliquid.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sint facilis quo est provident! Libero molestias magnam quas corrupti aliquam vitae nostrum. Ab commodi rerum tempore eum quo! Ipsa, ducimus!
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quisquam tenetur qui quas laudantium quibusdam voluptatum debitis eos distinctio. Quis eos commodi iste unde cumque! Reprehenderit officia architecto qui ut.
+    </p>
+
+    <h2>Subtitulo do exercio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, ex quibusdam et a odio aperiam vel reiciendis facere tempore, pariatur eaque quos? Ratione modi quo aperiam dicta laboriosam odio cum.</p>
+</body>
+</html>

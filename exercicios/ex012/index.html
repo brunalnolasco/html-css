@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+    <!-- <video src="media/meu-video.mp4" width="1000" controls></video> -->
+     <video  width="1000" height="500" poster="imagens/ -6.jpg" controls autoplay loop>
+        <source src="media/meu-video.mp4" type="video/mp4" >
+        <source src="media/meu-video.webm" type="video/webm">
+        <source src="media/meu-video1.ogv" type="video/ogv">
+        <p> Seu navegador nao tem compatibilidade com reproducao de video</p>
+     </video>
+
+     <h1> Inserindo videos do YouTube</h1>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/lC-UfwM1xWg?si=RJbT1JiZXLSkauu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+
+     <h1>Inserindo com o Vimeo</h1>
+     <div style="padding:30% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1190846167?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="A Thousand Odd Days"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+</body>
+</html>
